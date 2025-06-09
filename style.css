@@ -567,3 +567,11 @@ footer {
 .social-links li a:hover {
   color: #00adb5;
 }
+@media(max-width:768px){
+  #contact h2{
+    font-size: 2rem;
+  }
+  .contact-item span{
+    font-weight: 1rem;
+  }
+}
