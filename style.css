@@ -342,8 +342,8 @@ margin-top: 5rem;
 margin-bottom: 30px;
 }
 .edu-card{
-  background: #1a1a1a;
-  border: 2px solid #00ff88;
+ background: #1a1a1a;
+  border:  2px solid #00ff88;
   padding: 20px;
   border-radius: 20px;
  width: 60%;
@@ -510,7 +510,7 @@ transform: translateY(-10px);
   color: #fff;
   padding: 12px 20px;
   border-radius: 50px;
-  font-size: 1rem;
+  font-size: 1vmax;
   gap:15px;
   justify-content: flex-start;
   box-shadow: 0 4px 10px rgba(0,0,0,.5);
