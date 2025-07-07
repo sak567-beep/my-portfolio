@@ -510,7 +510,11 @@ transform: translateY(-10px);
   color: #fff;
   padding: 12px 20px;
   border-radius: 50px;
+<<<<<<< HEAD
   font-size:1rem;
+=======
+  font-size: 1vw;
+>>>>>>> 7f013effca21049c3f29f4fb69ca8f15e1c202e5
   gap:15px;
   justify-content: flex-start;
   box-shadow: 0 4px 10px rgba(0,0,0,.5);
@@ -572,6 +576,13 @@ footer {
     font-size: 2rem;
   }
   .contact-item span{
+<<<<<<< HEAD
     font-size: .8rem ;
   }
 }
+=======
+    font-size: .8rem;
+  }
+}
+
+>>>>>>> 7f013effca21049c3f29f4fb69ca8f15e1c202e5
