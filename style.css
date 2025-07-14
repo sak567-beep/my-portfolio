@@ -97,12 +97,11 @@ font-weight: 600;
   line-height: 1.3rem;
 }
 .image img{
-  width: 21vw;
-  animation: floatImage 4s ease-in-out infinite;
-  height: 20vw;
-  border-radius: 50%;
-  box-shadow: 0 0 15px white;
-  opacity: 1;
+  height: 60%;
+  width: 50%;
+  animation: floatImage 5s ease-in-out infinite;
+  border-radius: 10px;
+  box-shadow: 0 0 5px white;
 }
 
 @keyframes floatImage{
@@ -208,6 +207,7 @@ text-align: center;
   .right img{
     width: 250px;
     height: 250px;
+    
    
 
   }
@@ -240,23 +240,21 @@ opacity: 1;
   justify-content: center;
   align-items: center;
   gap:2rem;
-margin-top: 10rem;
-margin-bottom: 5rem;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
 }
 .about-image{
-  width: 30%;
+  width: 50%;
   margin-top: 50px;
-
+  padding-left: 10%;
 }
 
 .about-image img{
-  width: 20vw;
-  height: 20vw;
-  border-radius: 50%;
-  margin-left: 50px;
-  box-shadow: 0 0 15px #eeee;
+  height: 70%;
+  width: 60%;
+  border-radius: 10px;
+  box-shadow: 0 0 5px white;
   opacity: 1;
- 
 }
 .heading{
   text-align: center;
@@ -318,10 +316,11 @@ order: 1;
     width: 100%;
   }
   .about-image img{
-    height: 250px;
-    width: 250px;
-    border-radius: 50%;
-    
+  height: 100%;
+  width: 40%;
+  border-radius: 15px;
+  box-shadow: 0 0 5px white;
+  opacity: 1;
   }
   
 }
@@ -338,9 +337,14 @@ order: 1;
   margin-bottom: 30px;
 }
 .education-boxes{
-margin-top: 5rem;
+margin-top: 4rem;
 margin-bottom: 30px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
+
 .edu-card{
  background: #1a1a1a;
   border:  2px solid #00ff88;
@@ -349,7 +353,7 @@ margin-bottom: 30px;
  width: 60%;
   box-shadow: 0 0 20px rgba(0,255,136,0.2);
   transition: transform 0.3s ease;
-  text-align: left;
+  text-align: center;
   margin: 30px;
 }
 .edu-card:hover{
@@ -390,7 +394,6 @@ margin-top: 5px 0;
   font-size: 3rem;
   margin-bottom: 30px;
   color: #ccc;
-  text-align: center;
   margin-top: 30px;
 }
 .skill-container{
@@ -428,7 +431,7 @@ padding: 0;
   padding: 8px 12px;
   border-radius: 8px;
   color: #fff;
-  text-align: left;
+  text-align: center;
   transition: background-color .2s;
 }
 .skill-list li:hover{
@@ -438,6 +441,7 @@ padding: 0;
 #projects{
   padding: 50px 20px;
   text-align: center;
+  display: inline;
 }
 .section-title{
   font-size: 3rem;
@@ -449,6 +453,7 @@ padding: 0;
   gap:5rem;
   grid-template-columns: repeat(auto-fit,minmax(280px, 1fr));
   padding: 0 10px;
+  margin: 0% 10%;
 }
 .project-card{
   background-color: #222;
@@ -504,8 +509,6 @@ transform: translateY(-10px);
   gap: 20px;
 }
 .contact-item{
-  display: flex;
-  align-items: center;
   background-color: #222;
   color: #fff;
   padding: 12px 20px;
