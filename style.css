@@ -309,10 +309,10 @@ order: 1;
   }
   .about-image{
     width: 100%;
-    flex:1 1 200px;
-    order:2;
-justify-content: center;
-  text-align:center;
+    flex: 1 1 200px;
+    order: 2;
+    text-align:center;
+    padding: 0;
   }
   .about-content p{
     font-size: 13px;
