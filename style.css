@@ -509,6 +509,7 @@ transform: translateY(-10px);
 #contact{
   padding: 60px 20px;
   text-align: center;
+  height: auto;
 }
 #contact h2{
   font-size: 3rem;
