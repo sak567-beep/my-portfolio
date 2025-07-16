@@ -1,3 +1,4 @@
+const links=document.querySelectorAll("#navbar a");
 function toggleMenu(){
   const nav=document.querySelector("#navbar")
   nav.classList.toggle("show");
@@ -14,3 +15,4 @@ function typeWriter(){
   }
 }
 typeWriter();
+
