@@ -47,8 +47,11 @@ header{
   font-size: 30px;
   font-weight: 700;
   cursor: default;
+  color:#eee;
+  margin-left: 10px;
 }
-#navbar a:hover, #navbar a.active{
+
+   #navbar a:hover, #navbar a.active{
    color: #00ff88; 
 }
 #menu-icon{
